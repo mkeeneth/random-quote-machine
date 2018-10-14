@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
-import Container from 'react-bootstrap/lib/Container';
-import Jumbotron from 'react-bootstrap/lib/Jumbotron';
-import Row from 'react-bootstrap/lib/Row';
-import Col from 'react-bootstrap/lib/Col';
-import Button from 'react-bootstrap/lib/Button';
+import {
+  Container, Jumbotron, Row, Col, Button,
+} from 'reactstrap';
 
 /* ================================
 libs: reactjs, reactjs-dom, react-bootstrap
@@ -14,7 +12,7 @@ libs: reactjs, reactjs-dom, react-bootstrap
 export const Footer = () => (
   <Row>
     <Row className="col-sm created-by">
-      Created by
+      Created by &nbsp;
       <a href="https://github.com/mkeeneth">Matt Keeneth</a>
     </Row>
   </Row>
